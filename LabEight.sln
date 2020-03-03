@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabEight", "LabEight\LabEight.csproj", "{9AD327AC-464E-485C-8919-48DE2E79BB23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabEight", "LabEight\LabEight.csproj", "{EEB68010-1C17-4725-A685-FF0F9BD0E795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9AD327AC-464E-485C-8919-48DE2E79BB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AD327AC-464E-485C-8919-48DE2E79BB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AD327AC-464E-485C-8919-48DE2E79BB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AD327AC-464E-485C-8919-48DE2E79BB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB68010-1C17-4725-A685-FF0F9BD0E795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB68010-1C17-4725-A685-FF0F9BD0E795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB68010-1C17-4725-A685-FF0F9BD0E795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB68010-1C17-4725-A685-FF0F9BD0E795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -6,7 +6,8 @@ namespace LabEight
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String filepath = "sorted.dat";
+            String[] lines = OsHelper.
         }
     }
 }
