@@ -1,6 +1,6 @@
 using System;
 
-namespace LabSeven
+namespace LabEight
 {
     public class OsHelper
     {
