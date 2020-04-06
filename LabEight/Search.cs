@@ -41,14 +41,18 @@ namespace LabEight
 
             while (r >= l)
             {
-                int mid = l + ((searchFor - array[l]) * (r - l)) / (array[r] - array[l]);
-                if (array[mid] > searchFor)
-                    r = mid - 1;
-                else if (array[mid] < searchFor)
+                double numerator = (searchFor - array[l]);
+                double denominator = (array[r] - array[l]);
+                double ratio = numerator / denominator;
+                double m = l + ((r-l)*ratio);
+                int mid = (int)(m);
+                if (array[mid] < searchFor)
                     l = mid + 1;
-                else return mid;
+                else if (array[mid] > searchFor)
+                    r = mid - 1;
+                else
+                    return mid;
             }
-
             return -1;
         }
     }

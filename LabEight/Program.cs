@@ -9,6 +9,7 @@ namespace LabEight
     {
         static void Main(string[] args)
         {
+            //search for 555 and 695803 
             String filepath = "sorted.dat";
             String data = System.IO.File.ReadAllText(OsHelper.CompatiblePath(filepath, true));
             List<String> strings = new List<String>();
@@ -29,6 +30,7 @@ namespace LabEight
 
             Console.Write("Linear search: ");
             int searchFor = int.Parse(Console.ReadLine());
+
 
             int[] indexes;
             Stopwatch stpw = new Stopwatch();
